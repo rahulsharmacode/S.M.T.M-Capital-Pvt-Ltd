@@ -1,0 +1,933 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: var(--font-fam);
+}
+
+/* container */
+/* root */
+:root {
+  --col1: rgba(16, 25, 32, 1);
+  --col2: #bbd9fb;
+  --col3: rgba(88, 95, 100, 0.5);
+  --col4: #3F3F46;
+  --font-fam: "Outfit", sans-serif;
+}
+
+/* color */
+.tx-1 {
+  color: var(--col1) !important;
+}
+
+.bg-1 {
+  background-color: var(--col1) !important;
+}
+
+.tx-2 {
+  color: var(--col2) !important;
+}
+
+.bg-2 {
+  background-color: var(--col2) !important;
+}
+
+.tx-3 {
+  color: var(--col3) !important;
+}
+
+.bg-3 {
+  background-color: var(--col3) !important;
+}
+
+.tx-4 {
+  color: var(--col4) !important;
+}
+
+.bg-4 {
+  background-color: var(--col4) !important;
+}
+
+.tx-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/* font family */
+.font-1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-2 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* padding */
+.pad-1 {
+  padding: 0px 0px;
+}
+
+.pad-2 {
+  padding: 0px 0px;
+}
+
+.pad-sm {
+  padding: 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .pad-1 {
+    padding: 0px 0px;
+  }
+  .pad-2 {
+    padding: 0px 0px;
+  }
+  .pad-sm {
+    padding: 0px 0px;
+  }
+}
+/* line-ellipse */
+.tx-ep-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.tx-ep-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.tx-ep-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.tx-ep-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.tx-ep-5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.tx-ep-6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.tx-ep-7 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+
+/* margin */
+.sp-1 {
+  margin: 0px 0px;
+}
+
+.sp-2 {
+  margin: 0px 0px;
+}
+
+.sp-sm {
+  margin: 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .sp-1 {
+    margin: 0px 0px;
+  }
+  .sp-2 {
+    margin: 0px 0px;
+  }
+  .sp-sm {
+    margin: 0px 0px;
+  }
+}
+/* hover */
+.tx-1-hov:hover {
+  transition: 0.3s ease-in-out;
+  color: var(--col1);
+}
+
+/* font size */
+.fs-14-400 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fs-14-500 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.fs-14-600 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fs-16-400 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fs-16-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fs-16-600 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fs-18-400 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fs-18-500 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fs-18-600 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fs-20-400 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fs-20-500 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fs-20-600 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fs-22-400 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.fs-22-500 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.fs-22-600 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fs-24-400 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.fs-24-500 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.fs-24-600 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fs-26-400 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.fs-26-500 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.fs-26-600 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.fs-28-400 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.fs-28-500 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.fs-28-600 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.fs-30-400 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.fs-30-500 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.fs-30-600 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.fs-55-600 {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.fs-55-700 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.fs-55-800 {
+  font-size: 55px;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .fs-14-400 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .fs-14-500 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .fs-14-600 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .fs-16-400 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fs-16-500 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .fs-16-600 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fs-18-400 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .fs-18-500 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .fs-18-600 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .fs-20-400 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .fs-20-500 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .fs-20-600 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .fs-22-400 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fs-22-500 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .fs-22-600 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fs-24-400 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fs-24-500 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .fs-24-600 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fs-26-400 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fs-26-500 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .fs-26-600 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fs-28-400 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fs-28-500 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .fs-28-600 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fs-30-400 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .fs-30-500 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .fs-30-600 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .fs-55-600 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .fs-55-700 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .fs-55-800 {
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
+/* buttons */
+.btn-prop {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 25px;
+}
+
+.btn-1 {
+  background-color: var(--col1) !important;
+  border-color: var(--col1) !important;
+  outline: 1px solid var(--col1) !important;
+  outline-offset: 4px;
+  color: black;
+}
+
+.btn-1:hover {
+  background-color: var(--col1);
+  border-color: var(--col1);
+  outline: 1px solid var(--col1);
+  outline-offset: 4px;
+}
+
+/* cards */
+/* icons */
+/* size */
+.h-50 {
+  height: 50px;
+}
+
+.h-70 {
+  height: 70px;
+}
+
+.h-80 {
+  height: 80px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.h-700 {
+  height: 700px;
+}
+
+.h-800 {
+  height: 800px;
+}
+
+.h-900 {
+  height: 900px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .h-50 {
+    height: 50px;
+  }
+  .h-70 {
+    height: 70px;
+  }
+  .h-80 {
+    height: 80px;
+  }
+  .h-100 {
+    height: 100px;
+  }
+  .h-200 {
+    height: 200px;
+  }
+  .h-300 {
+    height: 300px;
+  }
+  .h-400 {
+    height: 400px;
+  }
+  .h-500 {
+    height: 500px;
+  }
+  .h-600 {
+    height: 600px;
+  }
+  .h-700 {
+    height: 700px;
+  }
+  .h-800 {
+    height: 800px;
+  }
+  .h-900 {
+    height: 900px;
+  }
+}
+@media (max-width: 768px) {
+  .h-50 {
+    height: 50px;
+  }
+  .h-70 {
+    height: 70px;
+  }
+  .h-80 {
+    height: 80px;
+  }
+  .h-100 {
+    height: 100px;
+  }
+  .h-200 {
+    height: 200px;
+  }
+  .h-300 {
+    height: 300px;
+  }
+  .h-400 {
+    height: 400px;
+  }
+  .h-500 {
+    height: 500px;
+  }
+  .h-600 {
+    height: 600px;
+  }
+  .h-700 {
+    height: 700px;
+  }
+  .h-800 {
+    height: 800px;
+  }
+  .h-900 {
+    height: 900px;
+  }
+  .w-90 {
+    width: 100%;
+  }
+  .w-80 {
+    width: 100%;
+  }
+  .w-70 {
+    width: 100%;
+  }
+  .w-60 {
+    width: 100%;
+  }
+  .w-50 {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .h-50 {
+    height: 50px;
+  }
+  .h-70 {
+    height: 70px;
+  }
+  .h-80 {
+    height: 80px;
+  }
+  .h-100 {
+    height: 100px;
+  }
+  .h-200 {
+    height: 200px;
+  }
+  .h-300 {
+    height: 300px;
+  }
+  .h-400 {
+    height: 400px;
+  }
+  .h-500 {
+    height: 500px;
+  }
+  .h-600 {
+    height: 600px;
+  }
+  .h-700 {
+    height: 700px;
+  }
+  .h-800 {
+    height: 800px;
+  }
+  .h-900 {
+    height: 900px;
+  }
+}
+/* boder radius */
+.br-5 {
+  border-radius: 5px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.br-x-5 {
+  border-radius: 5px 0px 5px 0px;
+}
+
+/* shadows */
+.noshadow {
+  box-shadow: none;
+}
+
+/* overflows */
+/* table */
+@media (max-width: 768px) {
+  .table-res {
+    overflow-x: scroll;
+  }
+}
+/* lines */
+/* accordian */
+/* custome checkbox */
+/**----- html code eg. 
+<label class="check-wrapper">One
+  <input type="checkbox" checked="checked">
+  <span class="ck-checkmark"></span>
+</label>
+ -----**/
+/* The check-wrapper */
+.check-wrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.ck-checkmark {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check-wrapper:hover input ~ .ck-checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-wrapper input:checked ~ .ck-checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the ck-checkmark/indicator (hidden when not checked) */
+.ck-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the ck-checkmark when checked */
+.check-wrapper input:checked ~ .ck-checkmark:after {
+  display: block;
+}
+
+/* Style the ck-checkmark/indicator */
+.check-wrapper .ck-checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* custome radio */
+/**----- html code eg. 
+<label class="radio-wrapper">One
+    <input type="radio" checked="checked" name="radio">
+    <span class="radio-checkmark"></span>
+  </label>
+ -----**/
+/* The radio-wrapper */
+.radio-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-wrapper:hover input ~ .radio-checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-wrapper input:checked ~ .radio-checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-wrapper input:checked ~ .radio-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-wrapper .radio-checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* custome switch */
+/**----- html code eg. 
+<div class="switch-wrapper">
+    <label class="switch">
+        <input type="checkbox" checked>
+        <span class="switch-slider round"></span>
+      </label>
+    <p class="switch-para" >hello</p>
+</div>
+ -----**/
+.switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.switch-para {
+  margin-left: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.switch-slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 2px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .switch-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .switch-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .switch-slider:before {
+  transform: translateX(19px);
+}
+
+/* Rounded switch-sliders */
+.switch-slider.round {
+  border-radius: 34px;
+}
+
+.switch-slider.round:before {
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+
+
+.btn-info{
+    border-radius: 25px;
+    font-size: 16;
+    font-weight: 500;
+    border: 0;
+}
+
+
+.tab-box{
+
+    .nav-tabs{
+        border-bottom: 0;
+        .nav-item{
+            margin-right: 8px;
+            margin-bottom: 8px;
+            .nav-link{
+                background-color: var(--col3);
+                border-radius: 25px;
+                border: none;
+                color: white;
+            }
+            .nav-link.active{
+                    background-color: var(--col2);
+                    color: var(--col1);
+            }
+        }
+    }
+}

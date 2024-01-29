@@ -1,0 +1,24 @@
+.btn-info {
+  border-radius: 25px;
+  font-size: 16;
+  font-weight: 500;
+  border: 0;
+}
+
+.tab-box .nav-tabs {
+  border-bottom: 0;
+}
+.tab-box .nav-tabs .nav-item {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.tab-box .nav-tabs .nav-item .nav-link {
+  background-color: var(--col3);
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+.tab-box .nav-tabs .nav-item .nav-link.active {
+  background-color: var(--col2);
+  color: var(--col1);
+}/*# sourceMappingURL=home.css.map */
